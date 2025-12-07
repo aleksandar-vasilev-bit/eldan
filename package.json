@@ -1,12 +1,12 @@
 {
   "name": "eldan-website",
   "version": "1.0.0",
-  "description": "Eldone Construction - Photovoltaic Support Systems",
+  "description": "eldan Construction - Photovoltaic Support Systems",
   "scripts": {
     "build": "echo 'No build needed - static HTML site'",
     "build:azure": "echo 'No build needed - static HTML site'"
   },
   "keywords": ["solar", "photovoltaic", "mounting"],
-  "author": "Eldone Construction",
+  "author": "eldan Construction",
   "license": "ISC"
 }

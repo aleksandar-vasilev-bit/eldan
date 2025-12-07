@@ -12,8 +12,8 @@
     --header-shadow: rgba(0, 0, 0, 0.1);
     --card-bg: #f8f9fa;
     --border-color: #ddd;
-    --primary-color: #0066cc;
-    --primary-hover: #0052a3;
+    --primary-color: #000000;
+    --primary-hover: #333333;
 }
 
 body {
