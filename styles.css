@@ -581,8 +581,8 @@ body {
 
 /* Footer */
 .footer {
-    background: #333;
-    color: white;
+    background: var(--header-bg);
+    color: #333;
     padding: 3rem 0 1rem;
 }
 
@@ -606,13 +606,13 @@ body {
 }
 
 .footer-links a {
-    color: white;
+    color: #333;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .footer-links a:hover {
-    color: #0066cc;
+    color: #000000;
 }
 
 .footer-social {
@@ -622,32 +622,32 @@ body {
 }
 
 .social-link {
-    color: white;
+    color: #333;
     font-size: 1.5rem;
     transition: color 0.3s ease;
 }
 
 .social-link:hover {
-    color: #0066cc;
+    color: #000000;
 }
 
 .footer-bottom {
     text-align: center;
     padding-top: 2rem;
-    border-top: 1px solid #555;
+    border-top: 1px solid #ccc;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .privacy-link {
-    color: white;
+    color: #333;
     text-decoration: none;
     font-size: 0.9rem;
 }
 
 .privacy-link:hover {
-    color: #0066cc;
+    color: #000000;
 }
 
 /* Responsive Design */
@@ -718,7 +718,7 @@ body {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    color: #0066cc;
+    color: #000000;
     text-decoration: none;
     margin-bottom: 2rem;
     font-weight: 500;
@@ -726,7 +726,7 @@ body {
 }
 
 .back-link:hover {
-    color: #0052a3;
+    color: #333333;
 }
 
 .product-title {
@@ -765,7 +765,7 @@ body {
 }
 
 .product-specifications h2 {
-    color: #0066cc;
+    color: #000000;
     font-size: 2rem;
     margin-bottom: 2rem;
 }
@@ -790,7 +790,7 @@ body {
 }
 
 .spec-value {
-    color: #0066cc;
+    color: #000000;
     font-weight: 500;
 }
 
@@ -800,7 +800,7 @@ body {
 
 .product-features h2 {
     text-align: center;
-    color: #0066cc;
+    color: #000000;
     font-size: 2rem;
     margin-bottom: 3rem;
 }
@@ -850,7 +850,7 @@ body {
 }
 
 .cta-section h2 {
-    color: #0066cc;
+    color: #000000;
     font-size: 2rem;
     margin-bottom: 1rem;
 }
