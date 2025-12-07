@@ -1,21 +1,36 @@
 // Mobile Navigation Toggle
 document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOM Content Loaded - Starting hamburger menu initialization');
+    
     const hamburger = document.querySelector('.hamburger');
     const navMenu = document.querySelector('.nav-menu');
     
+    console.log('Hamburger element:', hamburger);
+    console.log('Nav menu element:', navMenu);
+    
     if (hamburger && navMenu) {
+        console.log('Both elements found, attaching event listeners');
+        
         hamburger.addEventListener('click', function() {
+            console.log('Hamburger clicked!');
             hamburger.classList.toggle('active');
             navMenu.classList.toggle('active');
+            console.log('Hamburger classes:', hamburger.classList.toString());
+            console.log('Nav menu classes:', navMenu.classList.toString());
         });
         
         // Close mobile menu when clicking on a link
         document.querySelectorAll('.nav-link').forEach(link => {
             link.addEventListener('click', () => {
+                console.log('Nav link clicked, closing menu');
                 hamburger.classList.remove('active');
                 navMenu.classList.remove('active');
             });
         });
+        
+        console.log('Hamburger menu initialization complete');
+    } else {
+        console.error('Missing elements - Hamburger:', hamburger, 'Nav menu:', navMenu);
     }
 
     // Initialize video playlist
